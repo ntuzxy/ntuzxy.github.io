@@ -6,8 +6,6 @@ categories: [Tools, Matlab]
 tags: [matlab, animation, video, gif, avi]
 math: true
 mermaid: true
-image:
-  src: https://raw.githubusercontent.com/ntuzxy/ntuzxy.github.io/master/figs/matlab/save_as_gif.gif
 ---
 
 This post is to show how to record results as animation or video using Matlab.
