@@ -1,5 +1,5 @@
 ---
 layout: publications
-icon: fas fa-tag
+icon: fa-leanpub
 order: 6
 ---
