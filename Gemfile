@@ -27,4 +27,4 @@ if RUBY_PLATFORM =~ /linux-musl/
   gem "jekyll-sass-converter", "~> 2.0"
 end
 
-gem "webrick"
+gem "minimal-mistakes-jekyll", "4.13.0"
