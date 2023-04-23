@@ -8,7 +8,7 @@ platforms:
 
   - type: Facebook
     icon: "fab fa-facebook-square"
-    link: "https://www.facebook.com/profile.php?id=100017415799076"
+    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
 
   - type: Telegram
     icon: "fab fa-telegram"
@@ -18,7 +18,7 @@ platforms:
   #
   - type: Linkedin
     icon: "fab fa-linkedin"
-    link: "https://www.linkedin.com/in/shawn-xueyong-zhang-26578483/"
+    link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
   #
   # - type: Weibo
   #   icon: "fab fa-weibo"
