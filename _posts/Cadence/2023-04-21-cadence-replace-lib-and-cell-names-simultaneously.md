@@ -9,12 +9,12 @@ mermaid: true
 
 In ADE schematic, you can replace library name or cell name of cells by `Edit` -> `Replace`. But you cannot replace both library name and cell name simultaneously.
 
-For example, we want to automatically replace cells with lib name of `hiscs40ulph07svt40_ana` and cell name of `xxx_ana` to cells with lib name of `hiscs40ulph07svt40` and cell name of `xxx`.
+For example, we want to automatically replace cells with lib name of `hiscs40ulph07svt40_ana` and cell name of `xxxSVT40_ana` to cells with lib name of `hiscs40ulph07svt40` and cell name of `xxxSVT40`.
 
-|         | Old       | New           |
+|         | Old Name       | New Name          |
 |---------|-----------|:--------------|
 | Lib     | `hiscs40ulph07svt40_ana` | `hiscs40ulph07svt40` |
-| Cell    | `xxx_ana`  | `xxx`  |
+| Cell    | `xxxSVT40_ana`  | `xxxSVT40`  |
 
 The following skill script provides this function.
 
