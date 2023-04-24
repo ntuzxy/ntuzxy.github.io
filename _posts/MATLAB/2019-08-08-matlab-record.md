@@ -1,6 +1,5 @@
 ---
 title: Record results as an animation or video for demo
-author: xueyong
 date: 2021-02-23 11:33:00 +0800
 categories: [Tools, Matlab]
 tags: [matlab, animation, video, gif, avi]
