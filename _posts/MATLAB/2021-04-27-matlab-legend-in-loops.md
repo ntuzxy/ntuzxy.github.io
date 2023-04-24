@@ -1,6 +1,5 @@
 ---
 title: Generate Legends for Figures Plotted in Loops
-author: xueyong
 date: 2021-04-26 11:33:00 +0800
 categories: [Tools, Matlab]
 tags: [matlab, ledgend, loop]
