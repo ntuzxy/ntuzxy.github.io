@@ -1,6 +1,5 @@
 ---
 title: Statistical analysis -- Boxplot
-author: xueyong
 date: 2021-04-26 11:33:00 +0800
 categories: [Tools, Matlab]
 tags: [matlab, boxplot, statistics, distribution] # TAG names should always be lowercase
