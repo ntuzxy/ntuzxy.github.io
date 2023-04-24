@@ -41,10 +41,10 @@ social:
   email: ntuzhangxy@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
     - https://github.com/ntuzxy # change to your github homepage
+    - https://twitter.com/username # change to your twitter homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://www.facebook.com/profile.php?id=100017415799076
     - https://www.linkedin.com/in/shawn-xueyong-zhang-26578483/
 
 google_site_verification: # fill in to your verification string
