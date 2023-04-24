@@ -1,6 +1,5 @@
 ---
 title: Import data from cadence to matlab
-author: xueyong
 date: 2021-04-26 11:33:00 +0800
 categories: [Tools, Matlab]
 tags: [matlab, cadence, excel, data processing]
