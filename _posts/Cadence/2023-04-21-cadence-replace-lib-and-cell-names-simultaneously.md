@@ -21,8 +21,8 @@ The following skill script provides this function.
 ```skill
 procedure(CCFreplaceStdCellsPat(@key 
         (cvId geGetEditCellView()) 
-        (fromLib "hiscs40ulph07svt40_ana") 
-        (toLib "hiscs40ulph07svt40") 
+        (fromLib "hiscs40ulph07svt40_ana") ;old library
+        (toLib "hiscs40ulph07svt40") ;new library
         (pattern "40_ana") ;comment this if the cell name keeps
 	(with "40") ;comment this if the cell name keeps
       )
@@ -56,4 +56,5 @@ You might also want to change the library names it is looking for, so you could 
 There's also the ability to pass ?cvId so it doesn't have to be a schematic open in a window (it could have been opened with dbOpenCellViewByType), or to use a different suffix via ?suffix.
 
 # Reference
+
 [https://community.cadence.com/cadence_technology_forums/f/custom-ic-skill/47295/replace-library-name-and-cell-name-of-standard-cells-in-schematic] (https://community.cadence.com/cadence_technology_forums/f/custom-ic-skill/47295/replace-library-name-and-cell-name-of-standard-cells-in-schematic)
