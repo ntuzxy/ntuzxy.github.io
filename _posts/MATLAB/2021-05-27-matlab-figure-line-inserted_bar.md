@@ -1,6 +1,5 @@
 ---
 title: Insert Histogram into Line Chart
-author: xueyong
 date: 2021-05-26 11:33:00 +0800
 categories: [Tools, Matlab]
 tags: [matlab, histogram, bar, Monte Carlo]
