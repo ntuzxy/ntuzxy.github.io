@@ -1,6 +1,5 @@
 ---
 title: Matlab Plot Settings
-author: xueyong
 date: 2021-12-10 11:33:00 +0800
 categories: [Tools, Matlab]
 tags: [matlab, plot, settings, paper]
