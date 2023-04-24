@@ -57,4 +57,4 @@ There's also the ability to pass ?cvId so it doesn't have to be a schematic open
 
 # Reference
 
-[https://community.cadence.com/cadence_technology_forums/f/custom-ic-skill/47295/replace-library-name-and-cell-name-of-standard-cells-in-schematic] (https://community.cadence.com/cadence_technology_forums/f/custom-ic-skill/47295/replace-library-name-and-cell-name-of-standard-cells-in-schematic)
+<https://community.cadence.com/cadence_technology_forums/f/custom-ic-skill/47295/replace-library-name-and-cell-name-of-standard-cells-in-schematic>
