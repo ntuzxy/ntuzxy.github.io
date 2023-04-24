@@ -1,6 +1,5 @@
 ---
 title: Import MC results from Cadence and Plot using Matlab
-author: xueyong
 date: 2021-12-03 11:33:00 +0800
 categories: [Tools, Matlab]
 tags: [matlab, cadence, Monte Carlo, MC, plot]
