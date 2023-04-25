@@ -3,6 +3,7 @@ title: OneDrive Client for Linux
 date: 2023-04-25 11:33:00 +0800
 categories: [Tools, Linux]
 tags: [linux, onedrive, client, sync]
+img_path: /assets/figs/linux/
 math: true
 mermaid: true
 ---
@@ -27,6 +28,8 @@ For other Linux distributions, refer to [this](https://github.com/abraunegg/oned
 
 ## 2. Configuration and Usage
 
+
+![aa](linux-onedrive-client-config.png)
 
 
 # Reference
