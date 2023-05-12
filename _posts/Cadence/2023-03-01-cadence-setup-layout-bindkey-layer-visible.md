@@ -1,5 +1,5 @@
 ---
-title: simultaneously replace library name and cell name of cells in ADE schematic
+title: Bindkey to make specific layers visible or not
 date: 2023-05-12 11:33:00 +0800
 categories: [Tools, Cadence]
 tags: [cadence, setup, layout, visible, layer]
@@ -43,7 +43,7 @@ hiSetBindKey("Layout" "<Key>4" "CCSpteSetVisible(list(\"M4 drawing\" \"M4 pin\")
 hiSetBindKey("Layout" "<Key>5" "CCSpteSetVisible(list(\"M5 drawing\" \"M5 pin\"))")
 hiSetBindKey("Layout" "<Key>6" "CCSpteSetVisible(list(\"TM1 drawing\" \"TM1 pin\"))")
 
-;;;; Set Visible Bindkey for Combinatio of Layers
+;;;; Set Visible Bindkey for Combination of Layers
 ;;;; Modify the layer name and purpose name according to PDK
 hiSetBindKey("Layout" "Ctrl<Key>1" "CCSpteSetVisible(list(\"M1 drawing\" \"M1 pin\" \"M2 drawing\" \"M2 pin\"))")
 hiSetBindKey("Layout" "Ctrl<Key>2" "CCSpteSetVisible(list(\"M2 drawing\" \"M2 pin\" \"M3 drawing\" \"M3 pin\"))")
