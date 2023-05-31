@@ -44,14 +44,20 @@ procedure(CCFreplaceStdCellsPat(@key
 )
 ```
 
+Save the skill script as `replace_lib_cell.il` and load it in CIW by
+```
+load("<path>/replace_lib_cell.il")
+```
 
-Then all you need to do is (with the schematic open and in the current window):
+Then run the command in CIW (with the schematic open and in the current window):
 
 `CCFreplaceStdCellsPat()`
 
+Don't forget to hit `Check and Save` after replacement.
+You can also globally replace devices, e.g. form "LVT" to "SVT".
 You might also want to change the library names it is looking for, so you could do:
 
-`CCFreplaceStdCells(?fromLib "origLibName" ?toLib "newLibName")`
+`CCFreplaceStdCellsPat(?fromLib "origLibName" ?toLib "newLibName")`
 
 There's also the ability to pass ?cvId so it doesn't have to be a schematic open in a window (it could have been opened with dbOpenCellViewByType), or to use a different suffix via ?suffix.
 
