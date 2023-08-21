@@ -57,7 +57,7 @@ module DEC2BIN_16b(out)
 `define NumOfBits 16
 
 output electrical [`NumOfBits-1:0] out;
-parameter real vin = 0;
+parameter integer vin = 0;
 parameter real VDD = 1;
 
 genvar i;
