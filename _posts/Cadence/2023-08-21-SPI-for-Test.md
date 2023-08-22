@@ -11,6 +11,7 @@ mermaid: true
 
 # 1. 实现方案
 可以通过以下两种方式实现
+
 ## 方案1：先移位后取余
 先右移i位，再对2取余。
 
@@ -19,8 +20,12 @@ mermaid: true
 
 # 2. 实现方式
 根据以上分析，显然第一个方案更直接。下面两种实现方式均以第一个方案为例。
+
 ## 用analogLib中vdc实现
-可以通过一组理想源实现多位转换，第`i`位的DC voltage设为`pPar("VDD")*(fmod(pPar("vin")>>i,2))`。
+可以通过一组理想源实现多位转换，第`i`位的DC voltage设为`VDD*(fmod(vin>>i,2))`。其中，`VDD`是电源电压（参数），`vin`是待转换的十进制值（参数），`i`是相应bit的具体数字。
+
+当然，也可以通过pPar (parent parameters)将参数以CDF parameter显示在symbol属性上，只需将第`i`位的DC voltage设为`pPar("VDD")*(fmod(pPar("vin")>>i,2))`。
+
 ## 用veriloga实现
 
 ```
