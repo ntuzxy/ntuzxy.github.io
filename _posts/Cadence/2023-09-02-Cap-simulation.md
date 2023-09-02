@@ -7,7 +7,7 @@ math: true
 mermaid: true
 ---
 
-This post is to show how to run simulations with different views simultaneously.
+<b> 结论：smic40工艺，MOM电容的标准差σ大约为0.05fF，与电容绝对值无关。 </b>
 
 ---
 # smic40_mom_cap_variation
