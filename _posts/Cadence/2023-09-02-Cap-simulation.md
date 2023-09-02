@@ -28,6 +28,8 @@ SMIC40nm工艺，MOM电容的标准差σ=0.047fF (考虑PVT，大概在0.05fF左
 ![avatar](../../assets/figs/cadence/mom_cap_variation_2.png "mom_cap_variation_2")
 
 
-附录：电容仿真
+附录：电容仿真设置
 
 ![avatar](../../assets/figs/cadence/cap_sim.png "cap_sim")
+
+![avatar](../../assets/figs/cadence/cap_sim2.png "cap_sim2")
