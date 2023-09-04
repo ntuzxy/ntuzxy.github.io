@@ -70,5 +70,5 @@ end //analog
 endmodule
 ```
 
-
-https://miscircuitos.com/veriloga-code-to-stop-simulation-cadence/
+Reference:
+[https://miscircuitos.com/veriloga-code-to-stop-simulation-cadence/](https://miscircuitos.com/veriloga-code-to-stop-simulation-cadence/)
