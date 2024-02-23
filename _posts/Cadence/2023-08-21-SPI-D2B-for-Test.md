@@ -78,3 +78,36 @@ end
 endmodule
 ```
 
+
+or
+
+```
+//VerilogA Module for 6bit Decimal to Binary Decoder
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module busset6_enhanced(d_out,d_out_b,v_high,v_low)
+
+`define NumOfBits 16
+
+output [`NumOfBits-1:0] d_out;
+electrical [`NumOfBits-1:0] d_out;
+output [`NumOfBits-1:0] d_out_b;
+electrical [`NumOfBits-1:0] d_out_b;
+input v_high;
+electrical v_high;
+input v_low;
+electrical v_low;
+
+parameter integer dec_in = 0;
+parameter integer v_high = 1;
+parameter integer v_low = 0;
+
+analog begin
+	generate i (`NumOfBits-1,0) begin
+		V(d_out[i]) <+ (VarInDecimal&(1<<i))? V(v_high): V(v_low);
+		V(d_out_b[i]) <+ (VarInDecimal&(1<<i))? V(v_low): V(v_high);
+
+endmodule
+```
