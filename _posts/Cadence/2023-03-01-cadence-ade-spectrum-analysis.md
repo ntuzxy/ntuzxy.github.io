@@ -10,8 +10,9 @@ mermaid: true
 This post shows how to analyze spectrum features, which is useful when running ADC/DAC simulations.
 
 Here is an example of an 8-bit DAC simulation.
+
 ---
-# setup
+
 1. Plot the output analog signal (use the differential signal if the outputs are differential)
 2. In the Viva window, click `Measurements` and select `Spectrum`. 
 ![avatar](https://github.com/ntuzxy/ntuzxy.github.io/blob/main/assets/figs/cadence/spectrum_viva.png "Viva Spectrum")
