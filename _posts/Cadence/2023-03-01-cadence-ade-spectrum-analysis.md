@@ -15,7 +15,9 @@ Here is an example of an 8-bit DAC simulation.
 
 1. Plot the output analog signal (use the differential signal if the outputs are differential)
 2. In the Viva window, click `Measurements` and select `Spectrum`. 
-![avatar](https://github.com/ntuzxy/ntuzxy.github.io/blob/main/assets/figs/cadence/spectrum_viva.png "Viva Spectrum")
+![avatar](https://raw.github.com/ntuzxy/ntuzxy.github.io/blob/main/assets/figs/cadence/spectrum_viva.png "Viva Spectrum")
+
+![avatar](https://github.com/ntuzxy/ntuzxy.github.io/blob/main/assets/figs/cadence/spectrum_ana.png?raw=true "Viva Spectrum")
 
 - Select `Calculate Stop Time` (make sure the simulation time is enough)
 - Set sample count and frequency according to simulation settings
